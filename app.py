@@ -4,14 +4,14 @@ import pandas as pd
 from sklearn.exceptions import NotFittedError
 
 # Load the saved models and encoders with correct paths
-expanded_rules = joblib.load('/content/expanded_rules.pkl')
-xgb_model = joblib.load('/content/xgb_model_default.pkl')
-mlb_skills = joblib.load('/content/mlb_skills.pkl')
-mlb_primary_intelligence = joblib.load('/content/mlb_primary_intelligence.pkl')
-mlb_secondary_intelligence = joblib.load('/content/mlb_secondary_intelligence.pkl')
-mlb_bilingual_skills = joblib.load('/content/mlb_bilingual_skills.pkl')
-jobs_df = joblib.load('/content/jobs_df.pkl')
-feature_names = joblib.load('feature_names.pkl')
+expanded_rules = joblib.load('expanded_rules (1).pkl')
+xgb_model = joblib.load('xgb_model_default (1).pkl')
+mlb_skills = joblib.load('mlb_skills (1).pkl')
+mlb_primary_intelligence = joblib.load('mlb_primary_intelligence (1).pkl')
+mlb_secondary_intelligence = joblib.load('mlb_secondary_intelligence (1).pkl')
+mlb_bilingual_skills = joblib.load('mlb_bilingual_skills (1).pkl')
+jobs_df = joblib.load('jobs_df (1).pkl')
+feature_names = joblib.load('feature_names (1).pkl')
 
 
 # List of available options
